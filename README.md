@@ -21,6 +21,8 @@ DuckDB is a high-performance analytical database system. It is designed to be fa
 
 This fork explores small build and benchmark improvements for running DuckDB comfortably on an M4 MacBook, starting with native arm64 verification and repeatable local performance checks.
 
+The next milestone is a lightweight M4 build preset with a matching local benchmark script.
+
 DuckDB is available as a [standalone CLI application](https://duckdb.org/docs/current/clients/cli/overview) and has clients for [Python](https://duckdb.org/docs/current/clients/python/overview), [R](https://duckdb.org/docs/current/clients/r), [Java](https://duckdb.org/docs/current/clients/java), [Wasm](https://duckdb.org/docs/current/clients/wasm/overview), etc., with deep integrations with packages such as [pandas](https://duckdb.org/docs/guides/python/sql_on_pandas) and [dplyr](https://duckdb.org/docs/current/clients/r#duckplyr-dplyr-api).
 
 For more information on using DuckDB, please refer to the [DuckDB documentation](https://duckdb.org/docs/current/).
